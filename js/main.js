@@ -9,6 +9,8 @@ var number = 200
 
 if (number >= 0 && number <= 100 && number % 10 === 0 ){
     console.log("El número esta en el rango")
+} else if( number % 10 === 0){
+    console.warn("Solo es multiplo de 10")
 } else {
     console.error("No esta en el rango permitido")
 }
