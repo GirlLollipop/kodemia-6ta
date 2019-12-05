@@ -14,3 +14,17 @@ if (number >= 0 && number <= 100 && number % 10 === 0 ){
 } else {
     console.error("No esta en el rango permitido")
 }
+
+
+var wordEnter= "gato"
+
+if(wordEnter.length%2 === 0){
+    console.log("La palabra es par")
+    if(wordEnter.lenght < 10){
+        console.log("La palabra tiene un rango entre 0-10")
+    } 
+} else if(wordEnter.lenght > 15){
+    console.log("La palabra tiene un rango entre 10-15")
+}
+
+
